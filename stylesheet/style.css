@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  --primary-color: rgb(31, 131, 94);
+  --secondary-color: rgb(148, 187, 89);
+  --accent-color: rgb(26, 26, 26);
+  --secondary-bg-color: rgba(148, 187, 89, 0.15);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 1.5rem;
+  height: 15vh;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.search,
+.nav-links,
+.user-dropdown {
+  display: none;
+}
+
+.brand-logo {
+  width: 7.5rem;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cta-url {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.headertop-icon {
+  width: 20px;
+}
+
+.mobile-menubtn {
+  font-size: 20px;
+}
+
+/* hero section  */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding-inline: 1.5rem;
+}
+
+.hero-left {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+
+.hero-left h1 {
+  margin-bottom: 1.5rem;
+}
+/* second way .hero h1 span */
+
+.text-left {
+  color: var(--secondary-color);
+}
+
+/* border-radius
+button
+background-color */
+#afirst {
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  padding: 0.9rem 1.2rem;
+  font-size: 1rem;
+  color: aliceblue;
+}
+
+.hero-img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+/*  
+.click-button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: blue;
+  padding-block: 2.5rem;
+  padding-inline:;
+}
+.click-button2 {
+  padding: 0.75em 1em;
+  font: size 1rem;
+  color: white;
+  background-color: black;
+  padding-block: 2.5em;
+} */
+
+/* cqw
+ 1fr
+ px
+ 1rem
+ %
+ svh mostly for hero section 
+ card */
+
+/* color 
+  rgb 
+  hsl 
+  rgba 
+   */
+
+/* catigories */
+h2 {
+  align-self: center;
+  justify-self: center;
+  font-size: 1.5rem;
+  margin: 25px 25px;
+}
+.categories-aa {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  max-width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.vall {
+}
+.cate {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}

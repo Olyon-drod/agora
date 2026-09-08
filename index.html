@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGORA</title>
+
+    <!-- favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./image/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com ">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./stylesheet/style.css" />
+</head>
+
+<body>
+    <header>
+        <!--header-->
+        <div class="header-top">
+            <a href="index.html">
+                <img class="brand-logo" src="./image/agora-removebg-preview (1).png" alt="algora" />
+            </a>
+
+            <!--search form-->
+            <form class="search">
+                <label for="search" class="visually-hidden">
+                    <Search></Search>
+                </label>
+                <input type="search" id="search" placeholder="search for products" />
+                <button type="submit">
+                    <i data-lucide="search"></i>
+                </button>
+            </form>
+
+            <!--ctas-->
+            <ul class="cta-url">
+                <li><a href="favorite.html"><i class="headertop-icon" data-lucide="heart"></i></a></li>
+                <li><a href="add-to-cart.html"><i class="headertop-icon" data-lucide="shopping-cart"></i></a></li>
+                <li>
+                    <i class="headertop-icon" data-lucide="user"></i>
+                    <ul class="user-dropdown">
+                        <li><a href="sign-in.html">sign in</a></li>
+                        <li><a href="register.html">register</a></li>
+ 
+                    </ul>
+                </li>
+
+                <!-- hamburgermenu -->
+                <button type="button" class="mobile-menubtn" aria-label="menu-btn" areia-controls="main-navigation"
+                    area-expanded="false">&#9776;</button>
+            
+            <!--<ul> <li> <a> <i> </a> </li> </ul>-->
+        </div>
+
+        <!--navigation links-->
+
+        <nav aria-label="main-navigation" id="main-navigation" data-vissible="false">
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- <button type="button" class="mobile-menubtn" aria-label="menu-btn" areia-controls="main-navigation" area-expanded="false" &#9776;></button> -->
+
+    </header>
+
+    <!--hero section-->
+    <section class="hero-section">
+        <div class="hero-left">
+            <h1 class="h1-first">Make healthy <br> life with <span class="text-left">fresh<br></span> grocery</h1>
+            <a id="afirst" href="order-now.html">Order Now</a>
+        </div>
+        <img class="hero-img" src="./image/walmart.jfif" alt="shopimage">
+
+    </section> 
+
+
+    <!--categories-->
+    <section class="categories-a">
+        <div class="cate ">
+        <h2>Featured Categories</h2>
+        <a class="vall " href="products.html">view all</a>
+            </div>
+        <section class="categories-aa">
+
+            <a href="products.html">
+                <figure>
+                    <img src="./image/wal2.avif" alt="image" width="300" height="300">
+                    <figcaption>pop tarts</figcaption>
+                </figure>
+            </a>
+
+            <a href="products.html">
+                <figure>
+                    <img src="./image/wal3.avif" alt="image" width="300" height="300">
+                    <figcaption>Turkey</figcaption>
+                </figure>
+            </a>
+            <a href="products.html">
+                <figure>
+                    <img src="./image/wal4.avif" alt="image" width="300" height="300">
+                    <figcaption>chiken paster</figcaption>
+                </figure>
+            </a>
+            <a href="products.html">
+                <figure>
+                    <img src="./image/wal5.avif" alt="image" width="300" height="300">
+                    <figcaption>cookies</figcaption>
+                </figure>
+            </a>
+
+            <a href="products.html">
+                <figure>
+                    <img src="./image/wal6.avif" alt="image" width="300" height="300">
+                    <figcaption>ice cream</figcaption>
+                </figure>
+            </a>
+
+        </section>
+        <section>
+            <figure>
+                <img src="./image/frits basket 2.jpg" alt="fruit busket" width="300" height="300">
+                <p>for 20% discount</p>
+                <figcaption>Purely Fresh Vegetables</figcaption>
+                <a href="#">unseen text <i data-lucide="move-right"></i></a>
+            </figure>
+            <figure>
+                <img src="./image/friust basket.jfif" alt="fruit busket" width="300" height="300">
+                <p>for 20% discount</p>
+                <figcaption>Fresh Fruits Pure Quality</figcaption>
+
+                <a href="#"><a href="#">unseen text<i data-lucide="move-right"></i></a>
+            </figure>
+        </section>
+        <!--featurred products-->
+        
+            <section class="one">
+                <div class="one-up">
+                    <a href="#">unseen text</a>
+                    <h2>Featured products </h2>
+                    <div class="products-1">
+                        <figure>
+                            <img src="./image/drinks.jfif" alt="image" width="300" height="300">
+                            <figcaption>product description</figcaption>
+                            <h3>cost $3.99</h3>
+                            <a href="purchase.html">purchase</a>
+                        </figure>
+                    </div>
+                    <div class="products-two">
+                        <figure>
+                            <img src="./image/alcohol.jfif" alt="image" width="300" height="300">
+                            <figcaption>product description</figcaption>
+                            <h3>cost $18.99</h3>
+                            <a href="purchase.html">purchase</a>
+                        </figure>
+                    </div>
+
+                    <div class="product-three">
+                        <figure>
+                            <img src="./image/bread 1.jfif" alt="image" width="300" height="300">
+                            <figcaption>product description</figcaption>
+                            <h3>cost $9.12</h3>
+                            <a href="purchase.html">purchase</a>
+                        </figure>
+                    </div>
+                    <div class="product-four">
+                        <figure>
+                            <img src="./image/cooking oil.jfif" alt="image" width="300" height="300">
+                            <figcaption>product description</figcaption>
+                            <h3>cost $5.99</h3>
+                            <a href="purchase.html">purchase</a>
+                        </figure>
+                    </div>
+
+
+                    <div class="product-five">
+                        <figure>
+                            <img src="./image/wal7.avif" alt="image" width="300" height="300">
+                            <figcaption>product description</figcaption>
+                            <h3>cost $6.99</h3>
+                            <a href="purchase.html">purchase</a>
+                        </figure>
+                    </div>
+                    <div class="products-six">
+                        <figure>
+                            <img src="./image/wal8.avif" alt="image" width="300" height="300">
+                            <figcaption>product description</figcaption>
+                            <h3>cost $2.99</h3>
+                            <a href="purchase.html">purchase</a>
+                        </figure>
+                    </div>
+                    <div class="products-seven">
+                        <figure>
+                            <img src="./image/wal 9.avif" alt="image" width="300" height="300">
+                            <figcaption>product description</figcaption>
+                            <h3>cost $9.99</h3>
+                            <a href="purchase.html">purchase</a>
+                        </figure>
+                    </div>
+                    <div class="products-eight">
+                        <figure>
+                            <img src="./image/wal10.avif" alt="image" width="300" height="300">
+                            <figcaption>product description</figcaption>
+                            <h3>cost $4.99</h3>
+                            <a href="purchase.html">purchase</a>
+                        </figure>
+                    </div>
+                    <a href="#">unseen text</a>
+                </div>
+            </section>
+            <!--summer discount-->
+            <section class="summer-discount">
+                <div class="summer-discount">
+                    <h2>Summer Discount</h2>
+                    <p>get 20% off selected fresh grocries</p>
+                    <div class="countdown" area-label="summer discount countdown">
+                        <span><strong>04</strong>days</span>
+                        <span><strong>14</strong>hours</span>
+                        <span><strong>48</strong>minutes</span>
+                        <span><strong>18</strong>seconds</span>
+
+                    </div>
+                    <a href="#">shop now</a>
+                    <figure>
+                        <img src="./image/images.webp">
+                    </figure>
+
+
+                </div>
+
+            </section>
+
+
+            <!--my js-->
+            <script src="https://unpkg.com/lucide@latest"></script>
+            <script>
+                lucide.createIcons();
+            </script>
+            <script src="./js/script.js"></script>
+</body>
+
+</html>
